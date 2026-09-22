@@ -36,6 +36,13 @@ public class Employee {
 	    return salary;
 	}
 
+    // return type is not part of the function signature, hence it is often invisible when choosing the function
+    // so if functions have the same name, same parameters but different return value, it will be considered as the same, hence not overloading
+    //
+    // double getSalary(){
+	//     return salary;
+	// }
+
     float getSalary(boolean isCAD){
         float resSalary = salary;
         if(isCAD)
