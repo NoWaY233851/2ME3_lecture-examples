@@ -1,4 +1,4 @@
-package thirdWeek;
+package thirdWeek; 
 
 public class TriangleDemo {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package thirdWeek;
+package thirdWeek; 
 
 public class Triangle {
     protected double a;
