@@ -1,4 +1,4 @@
-package thirdWeek;
+package week_03;
 
 public class Employee {
     private float salary;

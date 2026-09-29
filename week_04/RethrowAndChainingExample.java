@@ -1,4 +1,4 @@
-package fourthWeek;
+package week_04;
 import java.io.FileNotFoundException;
  
 // - Rethrowing: preserves the original exception object and stack trace.

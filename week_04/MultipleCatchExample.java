@@ -1,4 +1,4 @@
-package fourthWeek;
+package week_04;
 import java.io.FileNotFoundException;
  
 // - Different exceptions can be handled by different catch blocks (specific messages).

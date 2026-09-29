@@ -1,3 +1,5 @@
+package week_03.oop_practice;
+
 public class Pet extends Animal {
     protected String name;
 

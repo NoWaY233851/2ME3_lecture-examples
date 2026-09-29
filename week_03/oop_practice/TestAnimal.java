@@ -1,3 +1,5 @@
+package week_03.oop_practice;
+
 public class TestAnimal {
     public static void main(String[] args) {
         // Test the Animal class

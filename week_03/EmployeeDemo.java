@@ -1,4 +1,4 @@
-package thirdWeek;
+package week_03;
 
 public class EmployeeDemo {
     public static void main(String[] args) {

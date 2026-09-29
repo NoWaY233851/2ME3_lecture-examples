@@ -1,4 +1,4 @@
-package fourthWeek;
+package week_04;
  
 // Exception propagation aligned with course slides
 //

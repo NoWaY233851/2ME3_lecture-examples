@@ -1,3 +1,5 @@
+package week_03.oop_practice;
+
 public class Animal {
     protected boolean vertebrate;
     protected String diet;

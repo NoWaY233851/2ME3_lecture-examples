@@ -1,4 +1,4 @@
-package thirdWeek;
+package week_03;
  
 public class RightTriangle extends Triangle {
     public RightTriangle(double side1, double side2, double side3) {
