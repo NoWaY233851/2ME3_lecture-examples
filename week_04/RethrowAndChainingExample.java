@@ -1,5 +1,5 @@
 package week_04;
-import java.io.FileNotFoundException;
+import java.io.FileNotFoundException; 
  
 // - Rethrowing: preserves the original exception object and stack trace.
 // - Wrapping: converts a low-level exception to a domain-specific one, but may lose the cause.

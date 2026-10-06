@@ -6,7 +6,7 @@ package week_04;
 // - If not caught, the program terminates with an uncaught exception.
 // - The stack trace shows the propagation path (C → B → A → main).
 // - Top-level try/catch can prevent crashes.
-
+ 
 
 public class PropagationExample {
     public static class MyException extends Exception {

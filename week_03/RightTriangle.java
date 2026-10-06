@@ -7,7 +7,7 @@ public class RightTriangle extends Triangle {
         // cannot put arbitrary code before super (must be the first line)
         // does mean it will create object anyway, can consider using other method for creation if needed
         if (!isRightTriangle()) {
-            //IllegalArgumentException class extends RuntimeException, meaning it’s an unchecked exception (the compiler does not force you to declare or catch it).
+            // IllegalArgumentException class extends RuntimeException, meaning it’s an unchecked exception (the compiler does not force you to declare or catch it).
             // It signals that a method or constructor has been passed an argument that is inappropriate or invalid.
             throw new IllegalArgumentException("The given sides do not form a right triangle.");
         }
