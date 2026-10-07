@@ -1,13 +1,17 @@
 package week_05;
 
 public class User {
-    public String username; 
+    private String username;
+
+    public User(String username) {
+        this.username = username;
+    }
 
     public String getUsername() { 
         return username;
     }
 
-    public void sendMessage() {
-        
+    public void sendMessage(Chat chat, String content) {
+        chat.addMessage(new Message(content));
     }
 }

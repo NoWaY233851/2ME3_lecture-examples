@@ -4,7 +4,12 @@ public class Message {
     private String content;
     private long timestamp;
 
-    public String text() {
+    public Message(String content) {
+        this.content = content;
+        this.timestamp = System.currentTimeMillis();
+    }
+
+    public String getContent() {
         return content;
     }
 

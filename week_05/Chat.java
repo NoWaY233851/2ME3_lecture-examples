@@ -5,13 +5,17 @@ import java.util.List;
 
 public class Chat {
     private String name;
-    private List<Message> messages = new ArrayList<Message>();
+    private List<Message> messages = new ArrayList<>();
 
-    void add(Message msg) {
+    public Chat(String name) {
+        this.name = name;
+    }
+
+    public void addMessage(Message msg) {
         messages.add(msg);
     }
 
-    String name() {
+    public String getName() {
         return name;
     }
 }
